@@ -1,53 +1,44 @@
-# Project Title
+# AutoDL guide
 
-## Brief Description
-Briefly describe your project here. Include the main objectives, research questions, and any relevant background information.
+<!-- ## Brief Description -->
+Tips and tools to use AutoDL for deep learning collaboration.
 
-## Table of Contents
-- [To-Do List](#to-do-list)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Citation](#citation)
-- [Contact](#contact)
+## Login
 
-## To-Do List
-- [ ] Task 1 - Description
-- [ ] Task 2 - Description
-- [ ] Task 3 - Description
-- [ ] Add license.
+Main account: {https://www.autodl.com/login}
 
-## Installation
-Detailed installation instructions are available in the [Installation Guide](docs/installation.md).
+Sub account: {https://www.autodl.com/subAccountLogin}
 
-## Usage
-To use this project, follow these steps:
-1. Step 1
-2. Step 2
-3. Step 3
-
-Additional usage instructions can be found in the [Documentation](docs/).
-
-## License
-This project is licensed under the [LICENSE](LICENSE) file in the root directory of this source tree.
-
-## Contributing
-We welcome contributions to this project. Please read the [Contributing Guide](CONTRIBUTING.md) for more information.
-
-## Citation
-If you use our work in your research, please cite it as follows:
+## Connect with VS Code
+Convert ssh command to ssh config example:
 
 ```
-@misc{YourProjectName,
-  author = {Your Name},
-  title = {Title of Your Project},
-  year = {Year},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/yourusername/yourprojectname}}
-}
+ssh -p 12345 root@connect.cqa1.seetacloud.com
+
+Host AutoDL
+    HostName connect.cqa1.seetacloud.com
+    User root
+    Port 12345
 ```
 
-## Contact
-For any queries or further information, please contact [Your Name](your.email@example.com).
+<!-- haizhu -->
+## Available drives
+
+<!-- haizhu -->
+## Uploading and downloading dataset
+
+## Bonus: Ping server regions
+Chongqing-A
+```
+ping connect.cqa1.seetacloud.com
+```
+
+Beijing-A 
+```
+ping region-45.autodl.pro
+```
+
+Foshan 
+```
+ping region-9.autodl.pro
+```
