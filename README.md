@@ -5,9 +5,7 @@ Tips and tools to use AutoDL for deep learning collaboration.
 
 ## Login
 
-Main account: {https://www.autodl.com/login}
-
-Sub account: {https://www.autodl.com/subAccountLogin}
+https://www.autodl.com
 
 ## Connect with VS Code
 Convert ssh command to ssh config example:
